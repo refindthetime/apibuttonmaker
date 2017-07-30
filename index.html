@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoo Gifs</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- Header  -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Zoo Keeper</h1>
+            <h3>Create Buttons to add animals to your zoo and click for the gifs!</h3>
+        </div>
+    </div>
+    <!-- Buttons  -->
+    <div id="gifButtons" class="container">
+    </div>
+     <!-- Main Container  -->
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <!-- Gifs  -->
+            <div id="gifsSpot"></div>
+        </div>
+         <!-- Action Submission Form  -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" role="form">
+                <h2><legend>Fill Your Zoo</legend></h2>
+                <div class="form-group">
+                    <label for="animals-input">Add your animal here</label>
+                    <input type="text" id="animals-input">
+                </div>
+                <input id="addGif" type="submit" value="Add your animals" class="btn btn-primary">
+            </form>    
+        </div>
+    </div>
+    <footer>
+        <div id="footer" class="container">
+            <h4 id="copyright">&copy; Derek Cassel 2017 </h4>
+        </div>
+    </footer>
+
+
+
+<script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascript/javascript.js"></script>
+</body>
+</html>
