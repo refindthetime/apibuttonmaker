@@ -31,7 +31,7 @@ function addNewButton(){
 // Function to display gifs
 function displayGifs(){
     var animals = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animals + "&api_key=dc6zaTOxFJmzC&limit10&rating=pg";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animals + "&api_key=dc6zaTOxFJmzC&limit10&rating=pg";
     console.log(queryURL); // just in case I need the URL
     $.ajax({
         url: queryURL,
